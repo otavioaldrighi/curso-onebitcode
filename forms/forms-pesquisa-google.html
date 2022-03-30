@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Google</title>
+</head>
+<body>
+    <h1>Encontre no Google</h1>
+    <form action="https://www.google.com/search" target="_blank">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" id="q" name="q" placeholder="Pesquise aqui..."  >
+        <input type="submit" value="Pesquisar">
+        <br>
+        <label for="q">Digite seu e-mail</label>
+            <input type="email" id="q" name="q" placeholder="Pesquise aqui..."  >
+            <input type="submit" value="Pesquisar">
+        <br>
+        <label for="q">Digite um número</label>
+        <input type="number" id="q" name="q" placeholder="Pesquise aqui..."  min="10" max="15">
+        <input type="submit" value="Pesquisar">
+        <br>
+        <form action="/action_page.php">
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+          </form>
+    </form>
+</body>
+</html>
