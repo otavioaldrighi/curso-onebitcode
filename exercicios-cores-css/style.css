@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+   background-color: burlywood;
+}
+
+h2.brazil-title {
+    color: blue;
+}
+
+li.brazil-green {
+    color: green;
+}
+
+li.brazil-yellow {
+    color: yellow;
+}
